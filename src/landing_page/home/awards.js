@@ -1,8 +1,55 @@
 import React from 'react'
-function award() {
+function Award() {
     return ( 
-        <h1>award</h1>
+        <div className='container mt-5' >
+            <div className='row '>
+                <div className='col-6 p-5' >
+                    <img src='image/largestBroker.svg' alt='award image' />
+                </div>
+                <div className='col-6 p-5 mt-5'  >
+                    <h1>Largest stock broker in India</h1>
+                    <p className='mb-5'>2+million Zerodha clients contibute to over 15% of all volumes in India Daily by trading and investing in:</p>
+                    <div className='row'>
+                        <div className='col-6'>
+                    <ul>
+                        <li>
+                            <p> Feature and options</p>
+                        </li>
+                        <li>
+                            <p>commodity derivatives</p>
+                        </li>
+                        <li>
+                            <p>Currency derivatives</p>
+                        </li>
+                    </ul>
+                    </div>
+                        <div className='col-6'>
+                    <ul>
+                        <li>
+                            <p>stock and ipos</p>
+                        </li>
+                        <li>
+                            <p>Direct mutual funds</p>
+                        </li>
+                        <li>
+                            <p>Bonds and government securities</p>
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                    <img src='image/pressLogos.png' style={{ width: '90%' }} />
+
+
+
+               </div>
+            </div>
+        </div>
+
+                     
+            
+    
+
      );
 }
 
-export default award;
+export default Award;

@@ -1,27 +1,23 @@
-import React from 'react'
-import Hero from './hero'
-import Awards from './awards'
-import Stats from './stats'
-import Pricing from './pricing'
-import education from './education'
+import React from 'react';
+import Hero from './hero';
+import Awards from './awards';
+import Stats from './stats';
+import Pricing from './pricing';
+import Education from './education';
 
-import OpenAccount from '../openaccount'
-import Navbar from '../navbar'
-import Footer from '../footer'
+import OpenAccount from '../openaccount';
 
-function homepage() {
+function Homepage() {
     return (  
         <>
-        <Navbar />
-        <hero />
-        <awards />
-        <stats />
-        <pricing />
-        <education />
-        <openaccount />
-        <footer />
+        <Hero />
+        <Awards />
+        <Stats />
+        <Pricing />
+        <Education />
+        <OpenAccount />
         </>
     );
 }
 
-export default homepage;
+export default Homepage;
